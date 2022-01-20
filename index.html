@@ -1,20 +1,200 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class='h-100'>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <meta name="author" content="Ctrl Alt Elite">
+    <meta name="description" content="Ctrl Alt Elite is a tech club with the aim of bringing different members of the tech community together to create a eutopia of creativity and ideas which will help solve real world problems">
+
+    <link rel="icon" type='image/x-icon' href='img/ico/favicon.ico'>
     <title>Ctrl Alt Elite</title>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/style.css">
-    <!-- Compressed CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/css/foundation.min.css" crossorigin="anonymous">
+
+    <!--Favicon.io crap that i dont understand-->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/ico/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/ico/favicon-16x16.png">
+    <link rel="manifest" href="img/ico/site.webmanifest">
+
 
 </head>
-<body>
-    <h1>Hello there</h1>
+<body class='bg-secondary d-flex flex-column h-100'>
+    <header class="navbar navbar-expand-md navbar-dark bg-dark">
+
+        <nav class="container-fluid flex-wrap flex-md-nowrap">
+            <a href="index.html" class="navbar-brand"><img src="img/logo.png" alt="CtrlAltElite" width="150" height="50" ></a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse sticky-right" id="navbarTogglerDemo01">
+                <ul class="navbar-nav flex-row flex-wrap me-auto mb-2 mb-lg-0 pt-2 py-md-0">
+                    <li class="nav-item col-3 col-md-auto">
+                        <a href="index.html" class="nav-link active p-2">Home</a>
+                    </li>
+                    <li class="nav-item col-3 col-md-auto">
+                        <a href="blog.html" class="nav-link p-2">Blog</a>
+                    </li>
+                    <li class="nav-item col-3 col-md-auto">
+                        <a href="events.html" class="nav-link p-2">Events</a>
+                    </li>
+                    <li class="nav-item col-3 col-md-auto">
+                        <a href="signup.html" class="nav-link p-2">Join Us</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container-fluid px-0 mb-5">
+        <div class="netback py-5 px-2 clearfix" >
+            <div class="card glassy float-end" style="width: 18rem; border-radius: 12px; border: 1px solid rgb(255, 255, 255); margin-top: 270px;">
+                <div class="card-body text-light">
+                    <h3 class="card-title">Ctrl Alt Elite</h4>
+                    <h5 class="card-subtitle mb-2 text-muted">Innovating the meta</h5>
+                    <p class="card-text">
+                        Ctrl Alt Elite is an elite group of tech enthusiasts with the aspiration of bringing the tech community together to create a Eutopia of creativity to shape innovative ideas which will help solve real world problems.
+                    </p>
+                    <a href="signup.html" class="btn btn-primary">Join Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <div class="flex-fill">
+                <div class="d-flex flex-column">
+                    <div class="d-flex flex-row p-2 justify-content-center">
+                        <h1 class="display-1">Our Team</h1>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center" style='margin-top: 200px;'>
+                        <div id="carouselExampleControls" class="carousel slide flex-fill" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="5000">
+                                    <div class="d-flex row justify-content-evenly">
+                                        <div class="d-flex col mb-3">
+                                            <div class="card text-end bg-dark text-white w-50 mx-5 p-2">
+                                                <img src="img/members/aarav.jpg" alt="Aarav Rajput" class="card-img-top img-fluid avatar">
+                                                <div class="card-body">
+                                                    <h3 class="card-title">Aarav Rajput</h3>
+                                                    <h5 class="card-subtitle lead">Web Lead</h5>
+                                                </div>
+                                                <div class="card-footer">
+                                                    <i class="bi bi-github"></i>
+                                                    <i class="bi bi-twitter"></i>
+                                                    <i class="bi bi-linkedin"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex col mb-3">
+                                            <div class="card text-end bg-dark text-white w-50 mx-5 p-2">
+                                                <img src="img/members/aryan.png" alt="Aryan Rajput" class="card-img-top img-fluid avatar">
+                                                <div class="card-body">
+                                                    <h3 class="card-title">Aryan Rajput</h3>
+                                                    <h5 class="card-subtitle lead">Web Lead</h5>
+                                                </div>
+                                                <div class="card-footer">
+                                                    <i class="bi bi-github"></i>
+                                                    <i class="bi bi-twitter"></i>
+                                                    <i class="bi bi-linkedin"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex col mb-3">
+                                            <div class="card text-end bg-dark text-white w-50 mx-5 p-2">
+                                                <img src="img/members/utkarsh.png" alt="Utkarsh Rajput" class="card-img-top img-fluid avatar">
+                                                <div class="card-body">
+                                                    <h3 class="card-title">utkarsh Rajput</h3>
+                                                    <h5 class="card-subtitle lead">Web Lead</h5>
+                                                </div>
+                                                <div class="card-footer">
+                                                    <i class="bi bi-github"></i>
+                                                    <i class="bi bi-twitter"></i>
+                                                    <i class="bi bi-linkedin"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                        
+                                </div>
+                                <div class="carousel-item" data-bs-interval="5000">
+
+                                    <div class="d-flex row justify-content-evenly">
+                                        <div class="d-flex col mb-3">
+                                            <div class="card text-end bg-dark text-white w-50 mx-5 p-2">
+                                                <img src="img/members/humus.png" alt="Sohrab Rajput" class="card-img-top img-fluid avatar">
+                                                <div class="card-body">
+                                                    <h3 class="card-title">Sohrab Rajput</h3>
+                                                    <h5 class="card-subtitle lead">Web Lead</h5>
+                                                </div>
+                                                <div class="card-footer">
+                                                    <i class="bi bi-github"></i>
+                                                    <i class="bi bi-twitter"></i>
+                                                    <i class="bi bi-linkedin"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex col mb-3">
+                                            <div class="card text-end bg-dark text-white w-50 mx-5 p-2" >
+                                                <img src="img/members/shines.png" alt="Noyaz Rajput" class="card-img-top img-fluid avatar">
+                                                <div class="card-body">
+                                                    <h3 class="card-title">Niyas Rajput</h3>
+                                                    <h5 class="card-subtitle lead">Web Lead</h5>
+                                                </div>
+                                                <div class="card-footer">
+                                                    <i class="bi bi-github"></i>
+                                                    <i class="bi bi-twitter"></i>
+                                                    <i class="bi bi-linkedin"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex col mb-3">
+                                            <div class="card text-end bg-dark text-white w-50 mx-5 p-2" >
+                                                <img src="img/members/tilak.png" alt="Tillu Rajput" class="card-img-top img-fluid avatar">
+                                                <div class="card-body">
+                                                    <h3 class="card-title">Tillak Rajput</h3>
+                                                    <h5 class="card-subtitle lead">Web Lead</h5>
+                                                </div>
+                                                <div class="card-footer">
+                                                    <i class="bi bi-github"></i>
+                                                    <i class="bi bi-twitter"></i>
+                                                    <i class="bi bi-linkedin"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="btn btn-dark mx-3" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1" class="btn btn-dark mx-3" aria-label="Slide 2"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
     
-    <!-- Compressed JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/js/foundation.min.js" crossorigin="anonymous"></script>
+    <footer class="footer mt-auto py-3 bg-dark d-flex justify-content-center">
+        <span class="text-muted">Ctrl Alt Elite &copy;2022</span>
+        <div class="text-light px-3">
+            <a href="https://github.com/Ctrl-Alt-Elite-club"><i class="bi bi-github"></i></a>
+            <a href="mailto:ctrlaltelite.hack@gmail.com"><i class="bi bi-envelope"></i></a>
+            <a href="https://www.linkedin.com/company/ctrl-alt-elite/"><i class="bi bi-linkedin"></i></a>
+            <a href="https://dsc.gg/vitb"><i class="bi bi-discord"></i></a>
+            <a href="https://instagram.com/ctrl_.alt._elite"><i class="bi bi-instagram"></i></a>
+            <a href="https://twitter.com/CaeClub" ><i class="bi bi-twitter"></i></a>
+            <a href="https://www.youtube.com/channel/UCc-DeNUnIVg8JSKMSLz75Qg" ><i class="bi bi-youtube"></i></a>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

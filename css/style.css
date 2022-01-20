@@ -1,0 +1,21 @@
+
+.netback2 {
+    background-image: url(/img/headerback.png);
+    background-repeat: repeat;
+}
+
+.glassy {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.04);
+}
+
+.avatar {
+    width: 175px;
+    height: 175px;
+    border-radius: 10%;
+}
+
+.netback {
+    background-image: url(/img/netback.png);
+}
